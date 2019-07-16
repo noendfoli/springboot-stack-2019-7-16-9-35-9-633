@@ -30,7 +30,7 @@ repositories {
 dependencies {
     compile 'org.springframework.boot:spring-boot-starter-actuator'
     compile 'org.springframework.boot:spring-boot-starter-web'
-
+    compile group: 'org.json', name: 'json', version: '20180813'
     testCompile 'org.springframework.boot:spring-boot-starter-test'
 
     testImplementation('org.junit.jupiter:junit-jupiter-api:5.0.0')
