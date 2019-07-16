@@ -12,9 +12,8 @@ import java.util.logging.Logger;
  * Created by jxzhong on 18/08/2017.
  */
 @RestController
-@RequestMapping("/hello")
-public class HelloResource {
-
+@RequestMapping("/companies")
+public class CompanyContorl {
     private final Logger log = Logger.getLogger(this.getClass().getName());
 
     @GetMapping(path = "/{userName}", produces = {"application/json"})
